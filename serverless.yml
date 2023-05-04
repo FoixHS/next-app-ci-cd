@@ -1,0 +1,6 @@
+service: aws-next
+provider:
+  name: aws
+  architecture: x86_64
+nextApp:
+  component: "@sls-next/serverless-component@3.7.0"
